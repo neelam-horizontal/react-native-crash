@@ -3,9 +3,7 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
@@ -13,6 +11,14 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts",
-    "nativewind-env.d.ts"
+    "nativewind-env.d.ts",
+    "app/(auth)/_layout.jsx",
+    "app/(auth)/sign-in.jsx",
+    "app/(auth)/sign-up.jsx",
+    "app/_layout.jsx",
+    "app/index.jsx",
+    "app/(tabs)/profile.jsx",
+    "app/(tabs)/_layout.jsx",
+    "app/(tabs)/bookmark.jsx"
   ]
 }
